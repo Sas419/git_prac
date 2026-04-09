@@ -18,13 +18,15 @@
         <!--Attributes ususally come in name/value pairs like: Name="Value"-->
         <h1>Coding Glossary</h1>
         <p>This document will be updated info about coding terminologies. 
-            This will act as a template for me to either use or to come back to refresh my memory</p>
+        This will act as a template for me to either use or to come back to refresh my memory</p>
+        <hr>
         
         <h2>Href attribute</h2>
         <p>The &lt;a&gt; tag defines a hyperlink. The Href attribute specifies the url of the page that it goes to:</p>
 
         <p>Example: &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt</p>
         <a href="https://www.google.com">Google</a>
+        <hr>
         
         <!--The Src Attributes-->
         <h2>Src Attributes</h2>
@@ -35,6 +37,15 @@
         <br> <!--This is a line break and is used to push things to the next line.-->
         <img src=".//Images/lexus.jpeg" width="250" height="250">
 
+        <p>There are two ways to specify the URL in the <strong>src</strong> attribute: </p>
+        <p><strong>1. Absolute URL </strong> - links to an external image that is hosted on another website. 
+        Example: src="https://www.w3schools.com/images/img_girl.jpeg"</p>
+        <p><strong>Relative URL</strong> - Links to an image that is hosted within the website. Here, the URL does not include the
+        domain name. If the URL begins without a slash, it will be relative to the current page.
+        Example:src="img_girl.jpg". If the URL begins with with a slash, it will be relative to the domain. 
+        Example:src="/images/img_girl.jpg"</p>
+        <p><strong>Tip:</strong> It is almost always best to use relative URLs. They will not break if you change domain. </p>
+
         <!--The Alt attribute-->
         <p>The required <strong>alt</strong> attribute for the <strong>&lt;img&gt;</strong> specifies
         an alternate text for an image, if the image for some reason can not be displayed.This can be due
@@ -43,6 +54,7 @@
         &lt;img src="lexus.jpeg" alt="White lexus is250"&gt;
 
         <!--The Style Attribute-->
+        <h2>The Style Attribute</h2>
         <p>The <strong>style</strong> attribute is used to add styles to an element, such as color, font and size.</p>
         &lt;p style="color: red"&gt;This is a red paragraph.&lt;p&gt;
         <p style="color: red;">This is a red paragraph.</p>
